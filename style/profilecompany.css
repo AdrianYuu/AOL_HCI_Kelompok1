@@ -145,6 +145,10 @@ body{
     color: #0094F3;
 }
 
+.btn-add:hover{
+    opacity: 0.6    ;
+}
+
 .profile-info{
     display: flex;
     flex-direction: column;
