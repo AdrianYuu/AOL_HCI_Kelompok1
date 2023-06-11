@@ -29,35 +29,6 @@ body{
 }
 
 .logo{
-    font-style: normal;
-    font-weight: 800;
-    font-size: 38px;
-}
-
-.navbar-button{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 5rem;
-}
-
-.navbar-button a{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
-    text-decoration: none;
-    color: white;
-}
-
-#current-page{
-    text-decoration: underline;
-}
-
-.navbar-button a:hover{
-    text-decoration: underline;
-}
-
-.logo{
     font-size: 38px;
     font-weight: 8  00;
 }
@@ -188,12 +159,12 @@ body{
     font-size: 16px;
 }
 
-.button-apply{
+.button-see{
     display: flex;
     justify-content: flex-end;
 }
 
-.button-apply a{
+.button-see a{
     margin-top: 2rem;
     font-style: normal;
     font-weight: 700;
@@ -205,6 +176,6 @@ body{
     text-decoration: none;
 }
 
-.button-apply a:hover{
+.button-see a:hover{
     opacity: 0.6;
 }

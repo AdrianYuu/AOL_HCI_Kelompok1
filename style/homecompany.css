@@ -129,6 +129,7 @@ body{
 .card .com-photo{
     width: 270px;
     height: 200px;
+    border-radius: 15px;
 }
 
 .card-content{
@@ -140,7 +141,7 @@ body{
 
 .com-name{
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 14px;
 }
 
@@ -152,7 +153,19 @@ body{
 }
 
 .com-place{
-    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 4px;
+}
+
+.com-place img{
+    width: 15px;
+    height: 15px;
+}
+
+.com-place p{
     font-style: normal;
     font-weight: 400;
     font-size: 12px;

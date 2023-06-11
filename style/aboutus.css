@@ -2,147 +2,86 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'M PLUS Rounded 1c';
+    font-family: 'Poppins';
+}
+
+.white-color{
+    color: white;
 }
 
 .navbar{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    padding: 36px 92px; 
-    background-color: #056DBC;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.navbar-content{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
+    padding: 40px 80px;
+    background-color: #056DBC;
+    box-shadow: 0px 8px 15px -1px rgba(0, 0, 0, 0.25);
 }
 
-.job{
-    color: black;
-    font-size: 38px;
-    font-weight: bolder;
-}
-
-.best{
-    color: white;
+.logo{
+    font-style: normal;
+    font-weight: 800;
     font-size: 38px;
 }
 
-.search input[type=text]{
-    width:300px;
-    height:25px;
-    border-radius:25px;
-    border: none;
-    padding-left: 10px;
-}
-     
-.search{
-    float:right;
-    margin:7px;
-}
-     
-.search button{
-    background-color: #056DBC;
-    color: #f2f2f2;
-    float: right;
-    padding: 5px 10px;
-    margin-right: 16px;
-    font-size: 12px;
-    border: none;
-    cursor: pointer;
+.navbar-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5rem;
 }
 
-.text{
-    display: flex;
-    font-size: 20px;
+.navbar-button a{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    text-decoration: none;
     color: white;
-    flex-direction: row;
+}
+
+#current-page{
+    text-decoration: underline;
+}
+
+.navbar-button a:hover{
+    text-decoration: underline;
+}
+
+.container{
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    flex-direction: column;
+    padding: 5rem;
+    gap: 2rem;
 }
 
-.content1{
+.box{
     display: flex;
-    flex-direction: row;
-    align-content: space-between;
+    width: 100%;
+    gap: 2rem;
 }
 
-.about1{
-    margin-left: 150px;
-    margin-top: 30px;
-    overflow: hidden;
-    width: 200%;
-    position: relative;
-    object-fit: cover;
-    border-radius: 15px;
+.box img{
+    background: url(image.png);
+    filter: drop-shadow(95px 253px 108px rgba(75, 88, 88, 0.02)) drop-shadow(53px 143px 91px rgba(75, 88, 88, 0.06)) drop-shadow(24px 63px 68px rgba(75, 88, 88, 0.1)) drop-shadow(6px 16px 37px rgba(75, 88, 88, 0.12)) drop-shadow(0px 0px 0px rgba(75, 88, 88, 0.12));
+    border-radius: 10px;
 }
 
-.card-1{
+.content{
     display: flex;
-    margin-top: 30px;
-    margin-right: 200px;
-    margin-left: 30px;
-    width: 200%;
-    height: 30%;
-    background-color: white;
-    border-radius: 15px;
+    flex-direction: column;
+    padding: 2rem;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 10px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
 }
 
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-} 
-
-.card:hover {
-   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-  
-.container {
-   padding: 2px 16px;
-   font-size: 42px
-}
-
-.description{
-    margin-top: 10px;
-    font-size: 29.5px;
-}
-
-.content2{
-    display: flex;
-    flex-direction: row;
-    align-content: space-between;
-}
-
-.about2{
-    margin-right: 150px;
-    margin-top: 30px;
-    margin-left: 30px;
-    overflow: hidden;
-    width: 200%;
-    position: relative;
-    object-fit: cover;
-}
-
-.card-2{
-    display: flex;
-    margin-top: 30px;
-    margin-left: 150px;
-    width: 200%;
-    height: 30%;
-    background-color: white;
-    border-radius: 15px;
-}
-
-.container2{
-    padding: 2px 16px;
-    font-size: 42px
- }
- 
-.description2  {
-     margin-top: 10px;
-     font-size: 29.5px;
+.title{
+    color: #056DBC;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 1rem;
 }
