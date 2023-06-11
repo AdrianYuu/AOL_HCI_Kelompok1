@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+.white-color{
+    color: white;
+}
+
+.blue-color{
+    color: #056DBC;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+    background-color: #056DBC;
+    box-shadow: 0px 8px 15px -1px rgba(0, 0, 0, 0.25);
+}
+
+.logo{
+    font-size: 38px;
+    font-weight: 8  00;
+}
+
+.button-back{
+    margin-left: 2.8rem;
+    margin-top: 1.8rem;
+}
+
+.button-back a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #056DBC;
+    text-decoration: none;
+}
+
+.button-back a:hover{
+    text-decoration: underline;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2rem;
+    gap: 3rem;
+}
+
+.left-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.img-upload{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    flex-direction: column;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.img-upload img{
+    width: 400px;
+    height: 400px;
+}
+
+.about-us{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 10px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 1.5rem
+}
+
+.about-us label{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.aboutus-desc{
+    font-size: 14px;
+    max-width: 350px;
+}
+
+.address{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 1rem;
+}
+
+.address p{
+    font-size: 14px;
+}
+
+.right-container{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.right-container .title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.about-job{
+    background: #FFFFFF;
+    box-shadow: 0px 8px 10px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 3rem;
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.job-title{
+    color: #525252;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.job{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.job label{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.job p{
+    font-size: 16px;
+}
+
+.button-see{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-see a{
+    margin-top: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    padding: 10px 50px;
+    background: #056DBC;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.button-see a:hover{
+    opacity: 0.6;
+}

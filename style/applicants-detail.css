@@ -36,6 +36,23 @@ body{
     box-shadow: 0px 8px 15px -1px rgba(0, 0, 0, 0.25);
 }
 
+.button-back{
+    margin-left: 2.8rem;
+    margin-top: 1.8rem;
+}
+
+.button-back a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #056DBC;
+    text-decoration: none;
+}
+
+.button-back a:hover{
+    text-decoration: underline;
+}
+
 .logo{
     font-style: normal;
     font-weight: 800;
@@ -72,77 +89,11 @@ body{
     gap: 5rem;
 }
 
-.left{
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-}
-
 .profile-pic{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 12px;
-}
-
-.pic-update{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.pic-update:hover{
-    opacity: 0.6;
-}
-
-.edit{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background: #FFFFFF;
-    border: 3px solid #056DBC;
-    border-radius: 20px;
-    gap: 16px;
-    padding: 1rem;
-}
-
-.edit-title{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    color: #056DBC;
-    margin-bottom: 1rem;
-}
-
-.vacancy{
-    text-align: center;
-    width: 250px;
-    padding: 4px;
-    background: #056DBC;
-    border-radius: 10px;
-    color: white;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.vacancy:hover{
-    opacity: 0.6;
-}
-
-.btn-add{
-    margin-top: 5.5rem;
-    text-decoration: none;
-    background-color: transparent;
-    cursor: pointer;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    color: #0094F3;
 }
 
 .profile-info{
@@ -182,13 +133,19 @@ body{
     justify-content: flex-end;
 }
 
-.change-pw{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
+.download{
+    display: flex;
+    justify-content: flex-end;
     cursor: pointer;
 }
 
-.change-pw:hover{
+.download p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #525252;
+}
+
+.download:hover{
     opacity: 0.6;
 }
