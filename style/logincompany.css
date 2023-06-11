@@ -72,92 +72,157 @@ body{
     color: white;
 }
 
+
 .container{
     display: flex;
     background-color: #056DBC;
     border-radius: 54px 54px 0px 0px;
-    height: 100%;
+    height: 110%;
     justify-content: center;
     align-items: center;
 }
 
 .box{
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: #D9D9D9;
     border: 1px solid #000000;
     box-shadow: 0px 3px 5px 6px rgba(0, 0, 0, 0.25);
     border-radius: 22px;
-    height: 80%;
+    height: 90%;
     width: 90%;
 }
 
-.title-welcome{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    margin-bottom: 1rem;
-}
-
-.title-role{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 42px;
-    color: rgba(49, 49, 49, 0.71);
-    margin-bottom: 2rem;
-}
-
-.button-list{
+.top-content{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 2rem;
-    margin-bottom: 2rem;
+    justify-content: flex-start;
 }
 
-.button-list a{
-    border-radius: 24.5px;
+.button-back{
+    margin-right: 36.5rem;
+    margin-top: 1.8rem;
+}
+
+.button-back a{
     font-style: normal;
-    font-weight: 400;
-    font-size: 26px;
+    font-weight: 700;
+    font-size: 25px;
+    color: #056DBC;
     text-decoration: none;
 }
 
-.user-login{
-    padding: 16px 210px;
-    background-color: #056DBC;
-    color: #EEF5F5;
+.button-back a:hover{
+    text-decoration: underline;
 }
 
-.user-login:hover{
-    opacity: 0.6;
+.title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 2.3rem;
 }
 
-.company-login{
-    padding: 16px 170px;
-    border: 4px solid #056DBC;
-    color: #056DBC;
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 36px;
 }
 
-.company-login:hover{
-    opacity: 0.6;
+.form-content{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
 }
 
-.register{
+.form-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input label{
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
 }
 
-.register a{
-    font-weight: 700;
-    text-decoration: none;
-    color: #056DBC;
+.box-input{
+    display: flex;
+    align-items: center;
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 1px 6px rgba(0, 0, 0, 0.25));
+    border-radius: 18px;
+    padding: 12px;
+    width: 600px;
+    height: 80px;
 }
 
-.register a:hover{
-    text-decoration: underline;
+.box-input input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    outline: none;
+    font-size: 24px;
+}
+
+.button-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 5rem;
+}
+
+.login-btn{
+    background-color: #056DBC;
+    outline: none;
+    border: none;
+    color: #EEF5F5;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 10px 120px;
+    border-radius: 24.5px;
+}
+
+.login-btn:hover{
+    opacity: 0.6;
+}
+
+.google-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(89, 89, 89, 0.14);
+    border-radius: 24.5px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+    padding: 10px 60px;
+}
+
+.google-btn span{
+    font-weight: 600;
+}
+
+.google-btn img{
+    width: 30px;
+    height: 30px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.google-btn:hover{
+    opacity: 0.6;
+}
+
+.error{
+    color: red;
+    margin-top: 4px;
+    font-size: 12px;
 }

@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+.white-color{
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+    background-color: #056DBC;
+    box-shadow: 0px 8px 15px -1px rgba(0, 0, 0, 0.25);
+}
+
+.logo{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+}
+
+.navbar-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5rem;
+}
+
+.navbar-button a{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+}
+
+#current-page{
+    text-decoration: underline;
+}
+
+.navbar-button a:hover{
+    text-decoration: underline;
+}
+
+.search-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background-color: #EEF5F5;
+    padding: 20px;
+    width: 700px;
+    border-radius: 15px;
+}
+
+.search-bar input{
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    width: 600px;
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+}
+
+.title h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.section{
+    padding: 2rem 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #9CB5C4;
+    border: 1px solid #000000;
+    box-shadow: 3px 6px 5px rgba(0, 0, 0, 0.25);
+    margin-bottom: 2rem;
+}
+
+.section-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.card-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    width: 270px;
+}
+
+.card:hover{
+    opacity: 0.6;
+}
+
+.card .com-photo{
+    width: 270px;
+    height: 200px;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 10px;
+}
+
+.com-name{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.com-desc{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    width: 240px;
+}
+
+.com-place{
+    margin-left: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+ 

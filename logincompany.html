@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JOBBEST | Company Register</title>
-    <link rel="stylesheet" href="style/registercompany.css">
+    <title>JOBBEST | Company Login</title>
+    <link rel="stylesheet" href="/style/logincompany.css">
 </head>
 <body>
     <nav class="navbar">
@@ -20,9 +20,9 @@
     <div class="container">
         <div class="box">
             <div class="button-back">
-                <a href="baseregister.html" class="button-back">< Back</a>
+                <a href="baselogin.html" class="button-back">< Back</a>
             </div>
-            <h1 class="title">Company Registration</h1>
+            <h1 class="title">Company Login</h1>
             <form action="">
                 <div class="form-content">
                     <div class="form-input">
@@ -33,23 +33,7 @@
                         <p id="error-name" class="error"></p>
                     </div>
                     <div class="form-input">
-                        <label for="address">Company's address</label>
-                        <div class="box-input">
-                            <input type="text" name="address" id="address">
-                        </div>
-                        <p id="error-address" class="error"></p>
-                    </div>
-                </div>
-                <div class="form-content">
-                    <div class="form-input">
-                        <label for="email">Company's email</label>
-                        <div class="box-input">
-                            <input type="text" name="email" id="email">
-                        </div>
-                        <p id="error-email" class="error"></p>
-                    </div>
-                    <div class="form-input">
-                        <label for="password">Set a password</label>
+                        <label for="password">Password</label>
                         <div class="box-input">
                             <input type="text" name="password" id="password">
                         </div>
@@ -58,11 +42,11 @@
                 </div>
             </form>
             <div class="button-list">
-                <button class="register-btn" onclick="validation()">Register</button>
+                <button class="login-btn" onclick="validation()">Login</button>
                 <a href="homecompany.html" class="google-btn">Continue with <img src="/assets/google.png" alt="google"> <span>Google</span></a>
             </div>
         </div>
     </div>
-    <script src="/script/registercompany.js"></script>
+    <script src="/script/logincompany.js"></script>
 </body>
 </html>
