@@ -28,3 +28,16 @@ function validation(){
     alert("Login Success!")
     window.location.replace("homeuser.html")
 }
+
+let flag = 0
+function toggle(){
+    if(flag == 0){
+        document.getElementById("eye").src = "assets/eye-open.png"
+        document.getElementById("password").type = "text"
+        flag = 1
+    } else{
+        document.getElementById("eye").src = "assets/eye-close.png"
+        document.getElementById("password").type = "password"
+        flag = 0
+    }
+}

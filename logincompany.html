@@ -29,14 +29,17 @@
                     <div class="form-input">
                         <label for="name">Company's name</label>
                         <div class="box-input">
-                            <input type="text" name="name" id="name">
+                            <input type="text" name="name" id="name" class="input">
                         </div>
                         <p id="error-name" class="error"></p>
                     </div>
                     <div class="form-input">
                         <label for="password">Password</label>
                         <div class="box-input">
-                            <input type="text" name="password" id="password">
+                            <div class="box-password">
+                                <input type="password" name="password" id="password" class="input-pw">
+                                <img src="/assets/eye-close.png" alt="eye" id="eye" onclick="toggle()">
+                            </div>
                         </div>
                         <p id="error-password" class="error"></p>
                     </div>
