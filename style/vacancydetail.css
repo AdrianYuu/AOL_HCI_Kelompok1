@@ -159,12 +159,13 @@ body{
     font-size: 16px;
 }
 
-.button-see{
+.button{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.button-see a{
+.button-see{
     margin-top: 2rem;
     font-style: normal;
     font-weight: 700;
@@ -176,6 +177,18 @@ body{
     text-decoration: none;
 }
 
-.button-see a:hover{
+.button-see:hover{
+    opacity: 0.6;
+}
+
+.button-del{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FF0A0A;
+    cursor: pointer;
+}
+
+.button-del:hover{
     opacity: 0.6;
 }

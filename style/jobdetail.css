@@ -18,6 +18,10 @@ body{
     color: #056DBC;
 }
 
+.green-color{
+    color: #128100;
+}
+
 .navbar{
     display: flex;
     flex-direction: row;
@@ -186,6 +190,11 @@ body{
 
 .job p{
     font-size: 16px;
+}
+
+.job .salary{
+    font-size: 26px;
+    font-weight: 700;
 }
 
 .button-apply{
