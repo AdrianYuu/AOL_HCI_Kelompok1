@@ -18,6 +18,10 @@ body{
     color: #056DBC;
 }
 
+.green-color{
+    color: #128100;
+}
+
 .navbar{
     display: flex;
     flex-direction: row;
@@ -133,7 +137,7 @@ body{
     padding-top: 1.5rem;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 16px;
 }
 
 .job-title{
@@ -159,6 +163,11 @@ body{
     font-size: 16px;
 }
 
+.job .salary{
+    font-size: 26px;
+    font-weight: 700;
+}
+
 .button{
     display: flex;
     justify-content: space-between;
@@ -166,7 +175,7 @@ body{
 }
 
 .button-see{
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-style: normal;
     font-weight: 700;
     font-size: 22px;

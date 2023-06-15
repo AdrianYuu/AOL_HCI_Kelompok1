@@ -173,11 +173,13 @@ form{
     gap: 3rem;
 }
 
-.second-row .right .desc{
+.second-row .right .textarea{
     border: 1px solid #000000;
     border-radius: 22px;
     padding: 1rem;
     width: 600px;
+    min-height: 210px;
+    resize: none;
 }
 
 .fill{

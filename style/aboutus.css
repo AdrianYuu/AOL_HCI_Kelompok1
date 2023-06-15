@@ -64,7 +64,6 @@
 }
 
 .box img{
-    background: url(image.png);
     filter: drop-shadow(95px 253px 108px rgba(75, 88, 88, 0.02)) drop-shadow(53px 143px 91px rgba(75, 88, 88, 0.06)) drop-shadow(24px 63px 68px rgba(75, 88, 88, 0.1)) drop-shadow(6px 16px 37px rgba(75, 88, 88, 0.12)) drop-shadow(0px 0px 0px rgba(75, 88, 88, 0.12));
     border-radius: 10px;
 }
@@ -84,4 +83,9 @@
     font-weight: 700;
     font-size: 30px;
     margin-bottom: 1rem;
+}
+
+.description{
+    font-size: 18px;
+    font-weight: 500;
 }
