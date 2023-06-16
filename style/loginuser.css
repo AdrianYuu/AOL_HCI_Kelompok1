@@ -187,6 +187,7 @@ form{
 .box-password img{
     width: 35px;
     height: 35px;
+    cursor: pointer;
 }
 
 .button-list{
@@ -206,6 +207,7 @@ form{
     font-size: 20px;
     padding: 10px 120px;
     border-radius: 24.5px;
+    cursor: pointer;
 }
 
 .login-btn:hover{
